@@ -1,0 +1,184 @@
+body {
+  
+  padding: 20px;
+  background: #f4f4f4;
+  color: #222;
+  font-family: Arial, sans-serif;
+  font-size: 16px;  /* base size */
+}
+html {
+  font-size: 100%;   /* 16px */
+}
+
+/* Dark mode */
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}
+
+#darkToggle {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  background: #ddd;
+}
+
+
+body.dark #darkToggle {
+  background: #333;
+  color: white;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 15px;
+}
+
+.topic-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  transition: 0.2s ease;
+
+}
+
+.topic-card:hover {
+  transform: translateY(-5px);
+}
+
+body.dark .topic-card {
+  background: #1e1e1e;
+  border-color: #333;
+}
+
+.topic-card h2 {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #2d7df4;
+}
+
+.back-btn {
+  text-decoration: none;
+  font-size: 18px;
+}
+.topic-card p, #topic-details p {
+  line-height: 1.7;   /* more space between lines */
+  margin-bottom: 12px; /* space between paragraphs */
+}
+.topic-card, #topic-details {
+  font-size: 1rem;    /* 1rem = 16px */
+}
+/* Font size buttons */
+button.font-btn {
+  padding: 10px 18px;
+  margin: 5px 5px 20px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #2d7df4;
+  color: white;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button.font-btn:hover {
+  background-color: #1a5ed8;
+  transform: translateY(-2px);
+}
+
+body.dark button.font-btn {
+  background-color: #5555ff;
+}
+
+body.dark button.font-btn:hover {
+  background-color: #4444cc;
+}
+
+/* Controls container */
+.controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  justify-content: center;
+}
+
+/* Search input */
+#search {
+  flex: 1;                /* take remaining space */
+  min-width: 250px;       /* don’t shrink too much */
+  padding: 12px 18px;     /* bigger clickable area */
+  font-size: 1.1rem;      /* slightly bigger text */
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+#search:focus {
+  border-color: #2d7df4;
+  box-shadow: 0 0 6px rgba(45, 125, 244, 0.4);
+}
+
+/* Category select */
+#categoryFilter {
+  padding: 12px 18px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  min-width: 180px;
+}
+
+body.dark #search,
+body.dark #categoryFilter {
+  background: #1e1e1e;
+  color: #eee;
+  border-color: #333;
+}
+
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.95rem;
+  color: #555;
+  border-top: 1px solid #ddd;
+  background: #f9f9f9;
+  border-radius: 12px 12px 0 0;
+}
+
+body.dark footer {
+  color: #ccc;
+  border-color: #333;
+  background: #1a1a1a;
+}
