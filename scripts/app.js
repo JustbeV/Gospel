@@ -22,7 +22,7 @@ function autoLinkVerses(text) {
 }
 
 /* ---------- HOMEPAGE ---------- */
-if (location.pathname.includes("index.html")) {
+if (location.pathname.endsWith("/") || location.pathname.includes("index.html")) {
   initDarkMode();
   loadCategories();
   displayTopics();
