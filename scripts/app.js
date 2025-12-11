@@ -79,11 +79,12 @@ if (location.pathname.includes("topic.html")) {
   const container = document.getElementById("topic-details");
 
   if (topic) {
-    container.innerHTML = `
-      <h1>${topic.title}</h1>
-      <small>${topic.category}</small>
-      <p>${autoLinkVerses(topic.content)}</p>
-    `;
+  container.innerHTML = `
+    <h1>${topic.title}</h1>
+    <small>${topic.category}</small>
+    ${topic.content.split("\n\n").map(p => `<p>${autoLinkVerses(p)}</p>`).join("")}
+  `;
+
 
     // Update tab title dynamically
     document.title = topic.title + " — Gospel";
