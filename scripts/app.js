@@ -75,24 +75,26 @@ if (location.pathname.includes("topic.html")) {
 
   const id = new URLSearchParams(location.search).get("id");
   const topic = topicsData.find(t => t.id == id);
-
   const container = document.getElementById("topic-details");
 
   if (topic) {
-  container.innerHTML = `
-    <h1>${topic.title}</h1>
-    <small>${topic.category}</small>
-    ${topic.content.split("\n\n").map(p => `<p>${autoLinkVerses(p)}</p>`).join("")}
-  `;
+    container.innerHTML = `
+      <h1>${topic.title}</h1>
+      <small>${topic.category}</small><br>
+      <small class="published">Published ${topic.published}</small>
+      ${topic.content
+        .split("\n\n")
+        .map(p => `<p>${autoLinkVerses(p)}</p>`)
+        .join("")}
+    `;
 
-
-    // Update tab title dynamically
     document.title = topic.title + " — Gospel";
   } else {
     container.innerHTML = "<p>Topic not found.</p>";
     document.title = "Topic Not Found — Gospel";
   }
 }
+
 
 /* ---------- FONT SIZE ---------- */
 function changeFontSize(change) {
