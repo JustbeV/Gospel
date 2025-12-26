@@ -57,16 +57,197 @@ const topicsData = [
     category: "Biblical Foundations",
     excerpt: "God’s forgiveness was revealed long before the cross through imperfect people He chose to use.",
     content: "God’s forgiveness did not begin in the New Testament. From the beginning, God showed mercy to imperfect people whom He still chose to use.\n\nThe prophets of the Old Testament were called by God, yet they were not without failure.\n\nMoses disobeyed God in anger by striking the rock (Numbers 20:7–12). David committed serious sin but found mercy through repentance ( 2 Samuel 11; Psalms 51). Jonah resisted God’s compassion toward others(Jonah 1:1–3; 4: 1–2). Elijah fell into fear and despair(1 Kings 19:3–4). Isaiah confessed his unworthiness before a holy God(Isaiah 6:5)..\n\nYet God forgave them.\n\nThis reveals a humbling truth.If a holy and righteous God can forgive those who sinned against Him, how can we, who are merely human, refuse to forgive those who have wronged us?\n\nFor my thoughts are not your thoughts, neither are your ways my ways, declares the Lord.Isaiah 55: 8\n\nForgiveness is not saying the pain was small. It is recognizing that God’s mercy is greater.\n\nGod did not forgive because people deserved it. He forgave because He is merciful.\n\nThe Lord is compassionate and gracious, slow to anger and abounding in love. Psalms 103: 8\n\nThis mercy pointed forward to the cross, where forgiveness was fully revealed through Jesus Christ.\n\nBecause we have been forgiven by God, we are called to forgive others, not as perfect people, but as forgiven ones.\n\nReflection: \n\nWho do you find hardest to forgive right now?\n\nTake a moment to remember how patiently God has forgiven you. Ask Him for the grace to extend that same mercy, even when it feels difficult.\n\nA simple prayer you can whisper today: \nLord, help me forgive as You have forgiven me."
-}
-,
-{
-  id: 8,
-  title: "Consistency",
+  }
+  ,
+  {
+    id: 8,
+    title: "Consistency",
+    category: "Christian Living",
+    published: "December 24, 2025",
+    excerpt: "Walking faithfully with God and living consistently in daily life, not just in moments of excitement.",
+    content: "Consistency in faith is not about doing great things once. It is about walking faithfully with God every day.\n\nJesus often described faith as a walk, not a moment. In John 15:4–5, He says, 'Abide in me, and I in you… whoever abides in me bears much fruit.' Fruit does not grow overnight. It grows through remaining, staying, and continuing.\n\nMany people begin their walk with God strongly but struggle to continue when emotions fade or challenges arise. Yet Scripture reminds us that growth comes through faithfulness, not speed. 1 John 2:6 teaches that whoever claims to live in Christ must walk as He walked. Walking implies steady, repeated steps, not occasional effort.\n\nConsistency does not mean perfection. It means choosing to return to God even after failure. It is opening His Word again, praying again, and obeying again. 1 John 1:7 tells us that when we walk in the light, God continues to cleanse us. The walk itself matters.\n\nConsistency is not limited to spiritual practices. It also shows in our everyday life, in our work, relationships, and choices. Doing the small things well every day, keeping promises, showing kindness, and managing our responsibilities faithfully reflects the same principle of consistent obedience. Just as the farmer tends crops daily, small actions repeated over time produce lasting impact.\n\nA consistent life with God is often quiet and unnoticed. But it is in these small, daily choices that faith is strengthened, character is formed, and God’s work is revealed. When we remain in Christ, He works in us over time, producing fruit that lasts.\n\nReflection:\n\nWhere has your walk with God become inconsistent lately? Are there areas in your daily life where small, faithful actions could make a difference?\n\nA simple prayer you can whisper today:\n\nLord, help me remain in You. Teach me to walk faithfully in both my faith and daily life, one day at a time."
+  }
+  ,
+  {
+    id: 9,
+    title: "Worship: More Than a Song",
+    category: "Worship",
+    published: "December 26, 2025",
+    excerpt: "Worship is more than singing in church—it is a life of obedience, trust, and surrender to God every day.",
+    content: `
+      When we hear the word worship, many of us immediately think of music—singing in church, lifting our hands, or standing quietly during a song. While music is a beautiful expression of worship, it is not the whole picture.
+
+      Jesus said, “The true worshipers will worship the Father in spirit and truth” (John 4:23). Worship is not about a specific place, sound, or moment. It is about the heart’s response to who God is.
+
+      Worship begins when we recognize God’s greatness and choose to honor Him—not only with our words, but with our lives.
+
+      Worship in Daily Life
+
+      True worship continues long after the music stops.
+
+      When we choose honesty over convenience, patience over anger, and obedience over comfort, we are worshiping God. Studying diligently, working faithfully, serving others quietly, and doing what is right even when no one is watching—these are acts of worship.
+
+      Paul writes in Romans 12:1, “Offer your bodies as a living sacrifice… this is your true and proper worship.” Worship is not limited to a church service; it is lived out in our everyday decisions.
+
+      Worship in Difficult Seasons
+
+      It is easy to worship when life is good. But worship becomes deeper when life is hard.
+
+      The Bible shows us people who worshiped God even in pain—Job after losing everything, and Paul and Silas while imprisoned. Their worship was not denial of suffering, but trust in God despite it.
+
+      Worship in hardship says, “God, I don’t understand, but I still trust You.” Sometimes the most honest worship is simply choosing to hold on to God when everything feels uncertain.
+
+      Heart Over Performance
+
+      God is not impressed by volume, talent, or routine. He looks at the heart.
+
+      It is possible to sing songs while being far from God, just as it is possible to worship deeply in silence. Isaiah reminds us that honoring God with our lips means little if our hearts are distant from Him.
+
+      True worship is sincere. It does not seek attention. It is not about how others see us—it is about how we surrender ourselves before God.
+
+      Worship as Surrender
+
+      At its core, worship is surrender.
+
+      Jesus Himself showed this when He prayed, “Not my will, but Yours be done.” Worship costs something. It requires letting go of control, trusting God’s will, and placing Him above our own desires.
+
+      When we choose God—even when it’s difficult—we are worshiping Him.
+
+      Reflection
+
+      Worship is more than a song we sing.
+      It is a life we offer.
+      It is obedience, trust, and surrender—every day.
+
+      The question is not “Did I sing today?”
+      But “Did I honor God with my heart and my life?”
+      `
+  }
+  ,
+  {
+    id: 10,
+    title: "Praise: Declaring the Goodness of God",
+    category: "Praise",
+    published: "December 26, 2025",
+    excerpt: "Praise is our response to what God has done. It declares His goodness, strengthens our faith, and lifts our focus from problems to His power.",
+    content: `
+Praise is our response to what God has done. It flows from gratitude and recognizes His goodness, faithfulness, and power. While worship focuses on who God is, praise proclaims His works and celebrates His blessings.
+
+The Bible is filled with calls to praise. Psalms 103:2 says, “Bless the Lord, O my soul, and forget not all His benefits.” Praise reminds us of God’s goodness so we do not forget what He has already done in our lives.
+
+Praise is not meant to stay quiet. It is expressed through words, songs, prayers, and even actions. When we praise God, we publicly acknowledge His work and give Him glory.
+
+Praise as a Response of Gratitude
+
+Praise begins with thankfulness. When we recognize answered prayers, protection, provision, and grace, praise naturally follows.
+
+Every breath, every victory, and every moment of mercy is a reason to praise God. Even ordinary days are filled with blessings we often overlook. Praise trains our hearts to see God’s hand in our daily lives.
+
+Gratitude keeps our faith alive. When we praise God for what He has done before, we build confidence to trust Him again.
+
+Praise Changes Our Perspective
+
+Praise does not always change our circumstances, but it changes how we see them.
+
+When we praise God, our focus shifts from problems to His power. Fear weakens, hope rises, and faith grows. Praise lifts our eyes above our struggles and reminds us that God is still in control.
+
+King David often praised God in moments of distress. His praise did not ignore pain, but it placed God above it. Praise reminds us that our situation is temporary, but God is faithful forever.
+
+Praise in Difficult Times
+
+True praise is not limited to joyful seasons. It is also offered in hardship.
+
+Praising God in the middle of pain is an act of faith. It says, “God, I trust You even when I do not understand.” Praise in suffering is not pretending everything is fine. It is choosing faith over despair.
+
+Paul and Silas praised God while imprisoned, not after their release. Their praise came before the breakthrough. Praise speaks faith before the answer arrives.
+
+The Power of Praise
+
+Praise carries power. Scripture shows that praise silences fear, strengthens faith, and confuses the enemy.
+
+When God’s people praise Him, they declare His authority and goodness. Praise creates an atmosphere where faith grows and discouragement loses its grip.
+
+Praise is not weak or passive. It is a bold declaration that God is greater than any problem we face.
+
+Praise Is a Choice
+
+Praise is not based on mood or emotion. It is a decision.
+
+There will be days when praise feels easy and days when it feels difficult. But God remains worthy in every season. Choosing to praise God, even when feelings do not align, is a powerful act of faith.
+
+Praise says, “God, You are still good, even now.”
+
+Reflection
+
+Praise is more than a reaction to good moments.
+It is a declaration of faith.
+It is gratitude in joy and trust in hardship.
+
+We praise God not only because life is good, but because God is good.
+`
+  }
+  ,
+  {
+  id: 11,
+  title: "Thanksgiving: A Heart of Gratitude",
   category: "Christian Living",
-  published: "December 24, 2025",
-  excerpt: "Walking faithfully with God and living consistently in daily life, not just in moments of excitement.",
-  content: "Consistency in faith is not about doing great things once. It is about walking faithfully with God every day.\n\nJesus often described faith as a walk, not a moment. In John 15:4–5, He says, 'Abide in me, and I in you… whoever abides in me bears much fruit.' Fruit does not grow overnight. It grows through remaining, staying, and continuing.\n\nMany people begin their walk with God strongly but struggle to continue when emotions fade or challenges arise. Yet Scripture reminds us that growth comes through faithfulness, not speed. 1 John 2:6 teaches that whoever claims to live in Christ must walk as He walked. Walking implies steady, repeated steps, not occasional effort.\n\nConsistency does not mean perfection. It means choosing to return to God even after failure. It is opening His Word again, praying again, and obeying again. 1 John 1:7 tells us that when we walk in the light, God continues to cleanse us. The walk itself matters.\n\nConsistency is not limited to spiritual practices. It also shows in our everyday life, in our work, relationships, and choices. Doing the small things well every day, keeping promises, showing kindness, and managing our responsibilities faithfully reflects the same principle of consistent obedience. Just as the farmer tends crops daily, small actions repeated over time produce lasting impact.\n\nA consistent life with God is often quiet and unnoticed. But it is in these small, daily choices that faith is strengthened, character is formed, and God’s work is revealed. When we remain in Christ, He works in us over time, producing fruit that lasts.\n\nReflection:\n\nWhere has your walk with God become inconsistent lately? Are there areas in your daily life where small, faithful actions could make a difference?\n\nA simple prayer you can whisper today:\n\nLord, help me remain in You. Teach me to walk faithfully in both my faith and daily life, one day at a time."
+  published: "December 26, 2025",
+  excerpt: "Thanksgiving is more than saying thank you. It is a way of recognizing God’s goodness in every season of life.",
+  content: `
+Thanksgiving is the practice of recognizing God’s goodness and responding with gratitude. It is more than polite words or seasonal celebration. It is a posture of the heart that acknowledges God as the source of every blessing.
+
+The Bible repeatedly calls God’s people to be thankful. 1 Thessalonians 5:18 says, “Give thanks in all circumstances; for this is God’s will for you in Christ Jesus.” This verse does not say to give thanks for everything, but in everything. Thanksgiving teaches us to trust God even when life is not easy.
+
+Thanksgiving helps us remember who God is and what He has done. It shifts our focus away from what we lack and toward the faithfulness of God.
+
+Thanksgiving as Recognition
+
+Thanksgiving begins with awareness.
+
+When we slow down and reflect, we begin to see God’s hand in both big and small things. Life itself, daily provision, protection, forgiveness, and grace are gifts from God. Many blessings become invisible only because we have grown used to them.
+
+Giving thanks reminds us that nothing we have is truly earned on our own. James 1:17 tells us that every good and perfect gift comes from above. Thanksgiving humbles us and keeps our hearts aligned with truth.
+
+Thanksgiving in Difficult Seasons
+
+Thanksgiving is often easiest when life is comfortable. But true thanksgiving is revealed during hardship.
+
+Being thankful in difficult moments does not mean ignoring pain or pretending everything is fine. It means choosing to trust God’s character when circumstances are unclear. Gratitude in suffering says, “God, I still see You at work.”
+
+The Bible shows believers giving thanks even in trials because they trusted God’s purposes. Thanksgiving in hardship strengthens faith and guards the heart from bitterness and despair.
+
+Thanksgiving and Contentment
+
+A thankful heart leads to contentment.
+
+When we practice thanksgiving, we learn to be satisfied with what God has given rather than constantly longing for more. Contentment does not mean lack of ambition, but freedom from envy and dissatisfaction.
+
+Paul wrote that he learned to be content in every situation, whether in plenty or in need Philippians 4:11-12. Thanksgiving trains our hearts to rest in God’s provision and timing.
+
+Thanksgiving Shapes Our Daily Life
+
+Thanksgiving is not meant to be occasional. It is meant to be practiced daily.
+
+Thanking God in prayer, acknowledging His help throughout the day, and expressing gratitude to others are simple but powerful habits. A thankful heart transforms how we speak, how we respond to challenges, and how we treat people.
+
+Gratitude softens the heart, deepens joy, and keeps us mindful of God’s presence in our lives.
+
+Reflection
+
+Thanksgiving is more than a moment.
+It is a mindset.
+It is choosing gratitude over complaint and trust over worry.
+
+What has God done in your life that you may have overlooked?
+
+A simple prayer you can whisper today:
+
+Lord, open my eyes to Your goodness. Teach me to live with a thankful heart in every season.
+`
 }
+
+
+
 
 
 
